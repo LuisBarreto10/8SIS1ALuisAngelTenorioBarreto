@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    text-align: center;
+    display: grid;
+    padding: 10px;
+    background-color: #ff0606;
+    color: #000000;
+    text-decoration: solid;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  a:hover {
+    background-color: #00b7ff;
+  }
+  

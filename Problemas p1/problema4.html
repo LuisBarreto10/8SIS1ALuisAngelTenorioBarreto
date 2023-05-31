@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejercicio 4 - Calificación</title>
+<link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+  <h1>Ejercicio 4 - Calificación</h1>
+  <h3>4.- Un alumno desea saber cual sera su calificacion final en la materia de algoritmos. 
+    Dicha calificacion se compone de los siguientes porsentajes:
+    55% del promedio de sus tres calificaciones parciales.
+    30% de la calificacion del examen final.
+    15% de la calificacion de un trabajo final.</h3>
+  <form>
+    <label for="parcial1">Calificación Parcial 1:</label>
+    <input type="number" id="parcial1" required>
+
+    <label for="parcial2">Calificación Parcial 2:</label>
+    <input type="number" id="parcial2" required>
+
+    <label for="parcial3">Calificación Parcial 3:</label>
+    <input type="number" id="parcial3" required>
+
+    <label for="examen-final">Calificación Examen Final:</label>
+    <input type="number" id="examen-final" required>
+
+    <label for="trabajo-final">Calificación Trabajo Final:</label>
+    <input type="number" id="trabajo-final" required>
+
+    <button type="button" onclick="calcularCalificacionFinal()">Calcular</button>
+  </form>
+
+  <h2>Resultados:</h2>
+  <p>Calificación Final: <span id="calificacion-final"></span></p>
+
+  <a href="Principal.html">Volver al inicio</a>
+
+  <script src="./js/scrips.js"></script>
+</body>
+</html>
