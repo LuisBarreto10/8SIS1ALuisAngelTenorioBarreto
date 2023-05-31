@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+  }
+  
+html, body{
+    background-color: rgb(9, 192, 122);
+}
+
+  h1 {
+    text-align: center;
+  }
+  
+  
+  .section h2 {
+    border: 5px solid #ff0000;
+    border-radius: 50px;
+    margin: 2rem;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }

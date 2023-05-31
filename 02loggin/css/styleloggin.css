@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../image/MicrosoftTeams-image\ \(6\).png);
+    background-size: cover;
+    color: rgb(21, 7, 223);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin{
+
+    background-color: aliceblue;
+    width: 600px;
+    height: 40px;
+    border-radius: 10px solid red;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 5px;
+    color: rgb(211, 0, 0);
+}
+
+.userid{
+    padding-top: 20px;
+}
+
+.userid h2{
+    font-family:Roboto;
+    float:left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.userid input{
+    height: 25px;
+    width: 300px;
+    border: solid 2px rgb(128, 0, 28);
+    border-radius: 10px;
+}
+
+.passwordd{
+    padding-top: 20px;
+}
+
+.passwordd h2{
+    font-family:Roboto;
+    float:left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.passwordd input{
+    height: 25px;
+    width: 300px;
+    border: solid 2px rgb(128, 0, 28);
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.button{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.button button{
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+}
+
+.button img{
+    float: left;
+}
+
+.button p{
+    margin-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+p{
+    margin-top: 20px;
+    float: left;
+    margin-left: 60px;
+    color: chartreuse
+}
