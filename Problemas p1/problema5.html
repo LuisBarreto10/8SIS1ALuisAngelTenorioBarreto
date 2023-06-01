@@ -2,27 +2,26 @@
 <html>
 <head>
   <title>Ejercicio 5 - Porcentaje de Género</title>
-<link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
   <h1>Ejercicio 5 - Porcentaje de Género</h1>
-  <h3>5.- Un maestro desea saber que porsentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.</h3>
+  <h4>5.- Un maestro desea saber que porsentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.</h4>
   <form>
-    <label for="total-estudiantes">Total de Estudiantes:</label>
-    <input type="number" id="total-estudiantes" required>
+    <label for="total-hombres">Total de Hombres:</label>
+    <input type="number" id="total-hombres" min="0" required>
 
-    <label for="hombres">Cantidad de Hombres:</label>
-    <input type="number" id="hombres" required>
-
-    <label for="mujeres">Cantidad de Mujeres:</label>
-    <input type="number" id="mujeres" required>
+    <label for="total-mujeres">Total de Mujeres:</label>
+    <input type="number" id="total-mujeres" min="0" required>
 
     <button type="button" onclick="calcularPorcentajeGenero()">Calcular</button>
   </form>
 
-  <h2>Resultados:</h2>
-  <p>Porcentaje de Hombres: <span id="porcentaje-hombres"></span></p>
-  <p>Porcentaje de Mujeres: <span id="porcentaje-mujeres"></span></p>
+  <h2>Resultado:</h2>
+  <p>Porcentaje de Hombres: <span id="porcentaje-hombres"></span>%</p>
+  <p>Porcentaje de Mujeres: <span id="porcentaje-mujeres"></span>%</p>
+
+  <button onclick="borrarDatos()">Borrar Datos</button>
 
   <a href="Principal.html">Volver al inicio</a>
 

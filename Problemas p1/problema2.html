@@ -2,25 +2,25 @@
 <html>
 <head>
   <title>Ejercicio 2 - Vendedor</title>
-<link rel="stylesheet" href="./css/estilos.css">
+ <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
   <h1>Ejercicio 2 - Vendedor</h1>
-  <h3>2.-Un vendedor recible un sueldo base mas un 10% extra por comision de sus ventas, 
-    el vendedor desea saber cuanto dinero obtendra por concepto de comisiones por las tres ventas que 
-    realiza en el mes y en total que recibira el mes tomando en cuenta su sueldo base y comisiones.</h3>
+  <h4>2.-Un vendedor recible un sueldo base mas un 10% extra por comision de sus ventas, 
+    el vendedor desea saber cuanto dinero obtendra por concepto de comisiones por las tres 
+    ventas que realiza en el mes y en total que recibira el mes tomando en cuenta su sueldo base y comisiones.</h4>
   <form>
     <label for="sueldo-base">Sueldo base:</label>
-    <input type="number" id="sueldo-base" required>
+    <input type="number" id="sueldo-base" min="0" required>
 
     <label for="venta1">Venta 1:</label>
-    <input type="number" id="venta1" required>
+    <input type="number" id="venta1" min="0" required>
 
     <label for="venta2">Venta 2:</label>
-    <input type="number" id="venta2" required>
+    <input type="number" id="venta2" min="0" required>
 
     <label for="venta3">Venta 3:</label>
-    <input type="number" id="venta3" required>
+    <input type="number" id="venta3" min="0" required>
 
     <button type="button" onclick="calcularComisiones()">Calcular</button>
   </form>
@@ -29,7 +29,10 @@
   <p>Comisión total: <span id="comision-total"></span></p>
   <p>Ingresos totales: <span id="ingresos-totales"></span></p>
 
+  <button onclick="borrarDatos()">Borrar Datos</button>
+
   <a href="Principal.html">Volver al inicio</a>
+
   <script src="./js/scrips.js"></script>
 </body>
 </html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio js</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form method="get" name = "formulario" action="">
+            <label>Formulario para el calculo de inverison de capital de 2% mensual</label>
+            <div class="table_content">
+                <table>
+                    <tr>
+                        <td>
+                            Introduce la cantidad a invertir: 
+                        </td>
+                        <td>
+                            <input type="text" name="cantidadI"onkeypress="retun validarn(event)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Calcular interes" name="Enviar"onclick="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Su saldo total con el interres al 2% mensual es de:
+                        </td>
+                        <td>
+                            <input type="text" readonly="readonly" class="input-text" name="sueldoI"id="cantidadI">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button"value="Borrar datos"name="borar"onclick="borrar()">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+    <script src="./js/interes.js"></script>
+</body>
+</html>

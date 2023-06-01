@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ejercicio 6 - Edad</title>
+  <title>Ejercicio 6 - Calculadora de Edad</title>
   <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-  <h1>Ejercicio 6 - Edad</h1>
-  <h3>6.-Realiza un algoritmo que calcule la edad de una persona.</h3>
+  <h1>Ejercicio 6 - Calculadora de Edad</h1>
+  <h4>6.-Realiza un algoritmo que calcule la edad de una persona.</h4>
   <form>
     <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
     <input type="date" id="fecha-nacimiento" required>
@@ -15,7 +15,9 @@
   </form>
 
   <h2>Resultado:</h2>
-  <p>Edad: <span id="edad"></span></p>
+  <p>Edad actual: <span id="edad"></span></p>
+
+  <button onclick="borrarDatos()">Borrar Datos</button>
 
   <a href="Principal.html">Volver al inicio</a>
 

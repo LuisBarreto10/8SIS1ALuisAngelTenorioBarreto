@@ -2,25 +2,24 @@
 <html>
 <head>
   <title>Ejercicio 1 - Banco</title>
-  <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+  <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
   <h1>Ejercicio 1 - Banco</h1>
-  <h3>1.- Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto dinero 
-    ganara despues de un mes si el banco paga a razon de 2% mensual.</h3>
+  <h4>1.- Suponga que un individuo desea invertir su capital en un banco y desea saber cuanto dinero 
+    ganara despues de un mes si el banco paga a razon de 2% mensual.</h4>
   <form>
-    <label for="capital">Capital inicial:</label>
-    <input type="number" id="capital" required>
-
-    <button type="button" onclick="calcularGanancias()">Calcular</button>
+    <label for="capital-inicial">Capital Inicial:</label>
+    <input type="number" id="capital-inicial" min="0" required>
+    <button type="button" onclick="calcularInteres()">Calcular</button>
   </form>
 
+  <h2>Resultado:</h2>
+  <p>Dinero después de un mes: <span id="dinero-mes"></span></p>
 
-  <h2>Resultados:</h2>
-  <p>Ganancias después de un mes: <span id="ganancias"></span></p>
-  <p>Total después de un mes: <span id="total"></span></p>
+  <button onclick="borrarDatos()">Borrar Datos</button>
 
-<a href="Principal.html">Volver al inicio</a>
+  <a href="Principal.html">Volver al inicio</a>
 
   <script src="./js/scrips.js"></script>
 </body>
